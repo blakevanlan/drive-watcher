@@ -1,0 +1,23 @@
+{
+  "name": "drive-watcher",
+  "version": "1.0.0",
+  "description": "Recipient of Google Drive push notifications and forwards to AppScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakevanlan/drive-watcher.git"
+  },
+  "author": "Blake VanLandingham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakevanlan/drive-watcher/issues"
+  },
+  "homepage": "https://github.com/blakevanlan/drive-watcher#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
